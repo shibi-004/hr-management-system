@@ -1,4 +1,4 @@
-const apiBaseUrl = 'https://fxn00yzlij.execute-api.ap-south-1.amazonaws.com'; // Ensure this is your correct deployed API URL with stage
+const apiBaseUrl = 'use your api endpoint here'; // Ensure this is your correct deployed API URL with stage
 
 // Helper to send JSON or FormData
 async function sendForm(endpoint, method, data, isFile = false) {
